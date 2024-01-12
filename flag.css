@@ -1,0 +1,1044 @@
+/*
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@%***++**#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@#=------------+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@#=:-*+=-====-=++--=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@*:-:+@@@%@@@@%@@@--:-%@@@@=----*@@@@@@@@@@@@@@@@@@@@@@@@#---=#@@@%=---%@@+---#@@@@@@@@@@
+@@@@@@@@@@@%::--#@@@@@@@@@@@@*:-:=@@@@  *##%@@%***%@@##@@@%#%#*####@%#%*  @@* -*#%@@. #%- +@@@@@@@@@
+@@@@@@@@@@@*:::+@@@@@@@@@@@@@@-:::%@@@  -=-#@= :=- :@+ -@@ .%==-  +@@+-..*@@. =-:-%@. +*= :@@@@@@@@@
+@@@@@@@@@@@*:::-%@@@@@@@@@@@@#:::-%@@@  *##@%  @@@: *@= #= %@@*:-@@@@@%#. #@  #@# .@@#+*= =@@@@@@@@@
+@@@@@@@@@@@@-.---*%%%@@@@@%%+:::.+@@@@  -===@= :=- -@@@-  *@%:  ==+@==+= :%@*.:=:.*@*=+=.-@@@@@@@@@@
+@@@@@@@@@@@@%-:+*---#@@@@+::::::+@@@@@%#####@@@#**%@@@@= =@@%######@%***%@@@@@#*#@@@%***%@@@@@@@@@@@
+@@@@@@@@@@@@@@+:=***%@%%@*.:.:-#@@@@@@@@@@@@@@@@@@@@@+::*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@*=-:%%%%@*:-+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@%@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+*/
+
+i.flag:not(.icon) {
+    width: 20px;
+    height: 15px;
+}
+
+i.flag:not(.icon):before {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 15px
+}
+
+i.flag.cx:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cx.svg) no-repeat;
+}
+
+i.flag.er:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/er.svg) no-repeat;
+}
+
+i.flag.ws:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ws.svg) no-repeat;
+}
+
+i.flag.mk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mk.svg) no-repeat;
+}
+
+i.flag.dj:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/dj.svg) no-repeat;
+}
+
+i.flag.jo:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/jo.svg) no-repeat;
+}
+
+i.flag.pk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pk.svg) no-repeat;
+}
+
+i.flag.pf:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pf.svg) no-repeat;
+}
+
+i.flag.ie:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ie.svg) no-repeat;
+}
+
+i.flag.mr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mr.svg) no-repeat;
+}
+
+i.flag.dk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/dk.svg) no-repeat;
+}
+
+i.flag.na:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/na.svg) no-repeat;
+}
+
+i.flag.gh:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gh.svg) no-repeat;
+}
+
+i.flag.ss:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ss.svg) no-repeat;
+}
+
+i.flag.sk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sk.svg) no-repeat;
+}
+
+i.flag.as:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/as.svg) no-repeat;
+}
+
+i.flag.md:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/md.svg) no-repeat;
+}
+
+i.flag.kp:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/kp.svg) no-repeat;
+}
+
+i.flag.mo:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mo.svg) no-repeat;
+}
+
+i.flag.tc:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tc.svg) no-repeat;
+}
+
+i.flag.sc:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sc.svg) no-repeat;
+}
+
+i.flag.am:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/am.svg) no-repeat;
+}
+
+i.flag.cw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cw.svg) no-repeat;
+}
+
+i.flag.gp:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gp.svg) no-repeat;
+}
+
+i.flag.io:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/io.svg) no-repeat;
+}
+
+i.flag.gq:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gq.svg) no-repeat;
+}
+
+i.flag.sy:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sy.svg) no-repeat;
+}
+
+i.flag.ao:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ao.svg) no-repeat;
+}
+
+i.flag.tj:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tj.svg) no-repeat;
+}
+
+i.flag.ve:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ve.svg) no-repeat;
+}
+
+i.flag.um:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/um.svg) no-repeat;
+}
+
+i.flag.ax:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ax.svg) no-repeat;
+}
+
+i.flag.pl:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pl.svg) no-repeat;
+}
+
+i.flag.sa:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sa.svg) no-repeat;
+}
+
+i.flag.cg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cg.svg) no-repeat;
+}
+
+i.flag.ba:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ba.svg) no-repeat;
+}
+
+i.flag.vi:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/vi.svg) no-repeat;
+}
+
+i.flag.nc:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/nc.svg) no-repeat;
+}
+
+i.flag.sm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sm.svg) no-repeat;
+}
+
+i.flag.cz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cz.svg) no-repeat;
+}
+
+i.flag.gt:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gt.svg) no-repeat;
+}
+
+i.flag.kr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/kr.svg) no-repeat;
+}
+
+i.flag.ee:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ee.svg) no-repeat;
+}
+
+i.flag.np:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/np.svg) no-repeat;
+}
+
+i.flag.xk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/xk.svg) no-repeat;
+}
+
+i.flag.bw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bw.svg) no-repeat;
+}
+
+i.flag.ph:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ph.svg) no-repeat;
+}
+
+i.flag.pm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pm.svg) no-repeat;
+}
+
+i.flag.iq:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/iq.svg) no-repeat;
+}
+
+i.flag.lb:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/lb.svg) no-repeat;
+}
+
+i.flag.bi:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bi.svg) no-repeat;
+}
+
+i.flag.mn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mn.svg) no-repeat;
+}
+
+i.flag.fo:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/fo.svg) no-repeat;
+}
+
+i.flag.py:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/py.svg) no-repeat;
+}
+
+i.flag.sj:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sj.svg) no-repeat;
+}
+
+i.flag.tk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tk.svg) no-repeat;
+}
+
+i.flag.gg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gg.svg) no-repeat;
+}
+
+i.flag.bq:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bq.svg) no-repeat;
+}
+
+i.flag.dz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/dz.svg) no-repeat;
+}
+
+i.flag.fr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/fr.svg) no-repeat;
+}
+
+i.flag.nl:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/nl.svg) no-repeat;
+}
+
+i.flag.gl:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gl.svg) no-repeat;
+}
+
+i.flag.sx:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sx.svg) no-repeat;
+}
+
+i.flag.td:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/td.svg) no-repeat;
+}
+
+i.flag.fi:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/fi.svg) no-repeat;
+}
+
+i.flag.pa:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pa.svg) no-repeat;
+}
+
+i.flag.ps:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ps.svg) no-repeat;
+}
+
+i.flag.ye:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ye.svg) no-repeat;
+}
+
+i.flag.br:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/br.svg) no-repeat;
+}
+
+i.flag.ng:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ng.svg) no-repeat;
+}
+
+i.flag.pw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pw.svg) no-repeat;
+}
+
+i.flag.jp:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/jp.svg) no-repeat;
+}
+
+i.flag.tz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tz.svg) no-repeat;
+}
+
+i.flag.kz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/kz.svg) no-repeat;
+}
+
+i.flag.pt:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pt.svg) no-repeat;
+}
+
+i.flag.gs:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gs.svg) no-repeat;
+}
+
+i.flag.lk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/lk.svg) no-repeat;
+}
+
+i.flag.de:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/de.svg) no-repeat;
+}
+
+i.flag.eh:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/eh.svg) no-repeat;
+}
+
+i.flag.mm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mm.svg) no-repeat;
+}
+
+i.flag.co:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/co.svg) no-repeat;
+}
+
+i.flag.pe:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pe.svg) no-repeat;
+}
+
+i.flag.sn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sn.svg) no-repeat;
+}
+
+i.flag.kg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/kg.svg) no-repeat;
+}
+
+i.flag.cn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cn.svg) no-repeat;
+}
+
+i.flag.af:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/af.svg) no-repeat;
+}
+
+i.flag.tr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tr.svg) no-repeat;
+}
+
+i.flag.lr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/lr.svg) no-repeat;
+}
+
+i.flag.za:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/za.svg) no-repeat;
+}
+
+i.flag.cl:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cl.svg) no-repeat;
+}
+
+i.flag.mt:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mt.svg) no-repeat;
+}
+
+i.flag.ki:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ki.svg) no-repeat;
+}
+
+i.flag.cv:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cv.svg) no-repeat;
+}
+
+i.flag.je:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/je.svg) no-repeat;
+}
+
+i.flag.is:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/is.svg) no-repeat;
+}
+
+i.flag.gm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gm.svg) no-repeat;
+}
+
+i.flag.vu:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/vu.svg) no-repeat;
+}
+
+i.flag.uy:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/uy.svg) no-repeat;
+}
+
+i.flag.om:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/om.svg) no-repeat;
+}
+
+i.flag.sd:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sd.svg) no-repeat;
+}
+
+i.flag.in:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/in.svg) no-repeat;
+}
+
+i.flag.la:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/la.svg) no-repeat;
+}
+
+i.flag.aw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/aw.svg) no-repeat;
+}
+
+i.flag.mq:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mq.svg) no-repeat;
+}
+
+i.flag.km:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/km.svg) no-repeat;
+}
+
+i.flag.es:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/es.svg) no-repeat;
+}
+
+i.flag.ag:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ag.svg) no-repeat;
+}
+
+i.flag.uz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/uz.svg) no-repeat;
+}
+
+i.flag.mv:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mv.svg) no-repeat;
+}
+
+i.flag.gi:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gi.svg) no-repeat;
+}
+
+i.flag.id:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/id.svg) no-repeat;
+}
+
+i.flag.pn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pn.svg) no-repeat;
+}
+
+i.flag.vn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/vn.svg) no-repeat;
+}
+
+i.flag.my:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/my.svg) no-repeat;
+}
+
+i.flag.ck:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ck.svg) no-repeat;
+}
+
+i.flag.sz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sz.svg) no-repeat;
+}
+
+i.flag.ug:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ug.svg) no-repeat;
+}
+
+i.flag.mg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mg.svg) no-repeat;
+}
+
+i.flag.fj:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/fj.svg) no-repeat;
+}
+
+i.flag.no:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/no.svg) no-repeat;
+}
+
+i.flag.aq:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/aq.svg) no-repeat;
+}
+
+i.flag.bv:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bv.svg) no-repeat;
+}
+
+i.flag.cy:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cy.svg) no-repeat;
+}
+
+i.flag.tw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tw.svg) no-repeat;
+}
+
+i.flag.pg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pg.svg) no-repeat;
+}
+
+i.flag.rw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/rw.svg) no-repeat;
+}
+
+i.flag.cd:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cd.svg) no-repeat;
+}
+
+i.flag.cm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cm.svg) no-repeat;
+}
+
+i.flag.rs:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/rs.svg) no-repeat;
+}
+
+i.flag.lt:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/lt.svg) no-repeat;
+}
+
+i.flag.tf:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tf.svg) no-repeat;
+}
+
+i.flag.kh:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/kh.svg) no-repeat;
+}
+
+i.flag.sh:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sh.svg) no-repeat;
+}
+
+i.flag.ae:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ae.svg) no-repeat;
+}
+
+i.flag.bm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bm.svg) no-repeat;
+}
+
+i.flag.mc:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mc.svg) no-repeat;
+}
+
+i.flag.cu:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cu.svg) no-repeat;
+}
+
+i.flag.hk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/hk.svg) no-repeat;
+}
+
+i.flag.mp:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mp.svg) no-repeat;
+}
+
+i.flag.tg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tg.svg) no-repeat;
+}
+
+i.flag.lu:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/lu.svg) no-repeat;
+}
+
+i.flag.mu:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mu.svg) no-repeat;
+}
+
+i.flag.ar:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ar.svg) no-repeat;
+}
+
+i.flag.gd:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gd.svg) no-repeat;
+}
+
+i.flag.ni:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ni.svg) no-repeat;
+}
+
+i.flag.nu:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/nu.svg) no-repeat;
+}
+
+i.flag.ua:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ua.svg) no-repeat;
+}
+
+i.flag.gy:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gy.svg) no-repeat;
+}
+
+i.flag.ne:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ne.svg) no-repeat;
+}
+
+i.flag.bj:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bj.svg) no-repeat;
+}
+
+i.flag.lc:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/lc.svg) no-repeat;
+}
+
+i.flag.tv:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tv.svg) no-repeat;
+}
+
+i.flag.nf:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/nf.svg) no-repeat;
+}
+
+i.flag.eg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/eg.svg) no-repeat;
+}
+
+i.flag.kn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/kn.svg) no-repeat;
+}
+
+i.flag.ls:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ls.svg) no-repeat;
+}
+
+i.flag.to:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/to.svg) no-repeat;
+}
+
+i.flag.ge:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ge.svg) no-repeat;
+}
+
+i.flag.et:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/et.svg) no-repeat;
+}
+
+i.flag.do:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/do.svg) no-repeat;
+}
+
+i.flag.vc:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/vc.svg) no-repeat;
+}
+
+i.flag.bz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bz.svg) no-repeat;
+}
+
+i.flag.im:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/im.svg) no-repeat;
+}
+
+i.flag.ma:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ma.svg) no-repeat;
+}
+
+i.flag.ht:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ht.svg) no-repeat;
+}
+
+i.flag.yt:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/yt.svg) no-repeat;
+}
+
+i.flag.bf:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bf.svg) no-repeat;
+}
+
+i.flag.bd:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bd.svg) no-repeat;
+}
+
+i.flag.kw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/kw.svg) no-repeat;
+}
+
+i.flag.re:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/re.svg) no-repeat;
+}
+
+i.flag.jm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/jm.svg) no-repeat;
+}
+
+i.flag.ro:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ro.svg) no-repeat;
+}
+
+i.flag.st:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/st.svg) no-repeat;
+}
+
+i.flag.bs:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bs.svg) no-repeat;
+}
+
+i.flag.mx:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mx.svg) no-repeat;
+}
+
+i.flag.mf:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mf.svg) no-repeat;
+}
+
+i.flag.sv:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sv.svg) no-repeat;
+}
+
+i.flag.bl:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bl.svg) no-repeat;
+}
+
+i.flag.fm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/fm.svg) no-repeat;
+}
+
+i.flag.tm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tm.svg) no-repeat;
+}
+
+i.flag.ai:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ai.svg) no-repeat;
+}
+
+i.flag.cf:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cf.svg) no-repeat;
+}
+
+i.flag.sr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sr.svg) no-repeat;
+}
+
+i.flag.be:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/be.svg) no-repeat;
+}
+
+i.flag.se:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/se.svg) no-repeat;
+}
+
+i.flag.bo:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bo.svg) no-repeat;
+}
+
+i.flag.me:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/me.svg) no-repeat;
+}
+
+i.flag.mz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mz.svg) no-repeat;
+}
+
+i.flag.lv:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/lv.svg) no-repeat;
+}
+
+i.flag.mw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mw.svg) no-repeat;
+}
+
+i.flag.ml:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ml.svg) no-repeat;
+}
+
+i.flag.va:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/va.svg) no-repeat;
+}
+
+i.flag.ms:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ms.svg) no-repeat;
+}
+
+i.flag.at:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/at.svg) no-repeat;
+}
+
+i.flag.al:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/al.svg) no-repeat;
+}
+
+i.flag.vg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/vg.svg) no-repeat;
+}
+
+i.flag.zm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/zm.svg) no-repeat;
+}
+
+i.flag.gf:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gf.svg) no-repeat;
+}
+
+i.flag.li:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/li.svg) no-repeat;
+}
+
+i.flag.qa:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/qa.svg) no-repeat;
+}
+
+i.flag.sb:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sb.svg) no-repeat;
+}
+
+i.flag.nr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/nr.svg) no-repeat;
+}
+
+i.flag.gr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gr.svg) no-repeat;
+}
+
+i.flag.ly:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ly.svg) no-repeat;
+}
+
+i.flag.gw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gw.svg) no-repeat;
+}
+
+i.flag.bb:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bb.svg) no-repeat;
+}
+
+i.flag.hn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/hn.svg) no-repeat;
+}
+
+i.flag.so:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/so.svg) no-repeat;
+}
+
+i.flag.ky:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ky.svg) no-repeat;
+}
+
+i.flag.it:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/it.svg) no-repeat;
+}
+
+i.flag.wf:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/wf.svg) no-repeat;
+}
+
+i.flag.ad:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ad.svg) no-repeat;
+}
+
+i.flag.ec:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ec.svg) no-repeat;
+}
+
+i.flag.ke:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ke.svg) no-repeat;
+}
+
+i.flag.bh:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bh.svg) no-repeat;
+}
+
+i.flag.gb:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gb.svg) no-repeat;
+}
+
+i.flag.gn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gn.svg) no-repeat;
+}
+
+i.flag.hm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/hm.svg) no-repeat;
+}
+
+i.flag.ru:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ru.svg) no-repeat;
+}
+
+i.flag.bn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bn.svg) no-repeat;
+}
+
+i.flag.zw:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/zw.svg) no-repeat;
+}
+
+i.flag.gu:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/gu.svg) no-repeat;
+}
+
+i.flag.au:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/au.svg) no-repeat;
+}
+
+i.flag.si:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/si.svg) no-repeat;
+}
+
+i.flag.by:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/by.svg) no-repeat;
+}
+
+i.flag.th:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/th.svg) no-repeat;
+}
+
+i.flag.nz:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/nz.svg) no-repeat;
+}
+
+i.flag.tn:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tn.svg) no-repeat;
+}
+
+i.flag.mh:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/mh.svg) no-repeat;
+}
+
+i.flag.sl:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sl.svg) no-repeat;
+}
+
+i.flag.bt:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bt.svg) no-repeat;
+}
+
+i.flag.us:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/us.svg) no-repeat;
+}
+
+i.flag.ch:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ch.svg) no-repeat;
+}
+
+i.flag.fk:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/fk.svg) no-repeat;
+}
+
+i.flag.cc:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cc.svg) no-repeat;
+}
+
+i.flag.ga:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ga.svg) no-repeat;
+}
+
+i.flag.dm:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/dm.svg) no-repeat;
+}
+
+i.flag.ca:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ca.svg) no-repeat;
+}
+
+i.flag.tt:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tt.svg) no-repeat;
+}
+
+i.flag.pr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/pr.svg) no-repeat;
+}
+
+i.flag.sg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/sg.svg) no-repeat;
+}
+
+i.flag.hu:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/hu.svg) no-repeat;
+}
+
+i.flag.cr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/cr.svg) no-repeat;
+}
+
+i.flag.il:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/il.svg) no-repeat;
+}
+
+i.flag.bg:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/bg.svg) no-repeat;
+}
+
+i.flag.az:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/az.svg) no-repeat;
+}
+
+i.flag.tl:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/tl.svg) no-repeat;
+}
+
+i.flag.ir:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ir.svg) no-repeat;
+}
+
+i.flag.hr:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/hr.svg) no-repeat;
+}
+
+i.flag.ci:before {
+    background: url(https://flagicons.lipis.dev/flags/4x3/ci.svg) no-repeat;
+}
